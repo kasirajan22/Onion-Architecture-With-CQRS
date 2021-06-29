@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.v1.UsersController.Create(Application.Features.Users.Command.CreateUserCommand)">
+            <summary>
+            Creates a New User.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.UsersController.Update(Application.Features.Users.Command.UpdateUserCommand)">
+            <summary>
+            Update Users.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.UsersController.GetAll">
+            <summary>
+            Get All Users.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
